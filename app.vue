@@ -1,11 +1,18 @@
-
-<script setup lang="ts">
-
-</script>
-
 <template>
-
-<h1>sheida</h1>
-
-
+  <h1>sheida  </h1>
+  <!-- <UBreadcrumb :links="links">
+    <template #icon="{ link }">
+      <UIcon :name="link.icon" />
+    </template>
+  </UBreadcrumb> -->
 </template>
+
+<!-- <script setup lang="ts">
+import type { BreadcrumbLink } from '#ui/types'
+
+export interface Props {
+  links: BreadcrumbLink[]
+}
+
+defineProps<Props>()
+</script> -->

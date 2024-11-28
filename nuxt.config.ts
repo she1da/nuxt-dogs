@@ -4,12 +4,16 @@ export default defineNuxtConfig({
       '/**': { isr: true }
     }
   },
+
   $development: {
     //
   },
+
   $env: {
     staging: {
       // 
     }
   },
+
+  modules: ['@nuxt/ui'],
 })
